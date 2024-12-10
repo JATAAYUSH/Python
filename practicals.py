@@ -21,7 +21,7 @@ def fact(n):
     return fact(n-1)*n
 print(fact(int(input("Enter the no: "))))
 
-# pelendrom or not:
+# pelindrom or not:
 word=(input("Enter: "))
 rword=word[::-1]
 if word==rword:
