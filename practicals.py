@@ -5,9 +5,10 @@ if year%4==0:
 else:
     print("It is not leap year")
 
-# A program that calculates the factorial of a given no:-
+# A program that  calculates the factorial of a given no:-
 num=int(input("Enter any Number: "))
 fact=num
+s=3
 if num==1 or num==0:
         print("Enter another no: ")
 else:
